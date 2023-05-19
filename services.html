@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>International Institute</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/8757e8ab19.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-------------------------------header------------------------------->
+        <section class="sub-header">
+
+            <!--div for the google translate button-->
+            <div class="gtranslate_wrapper"></div>
+
+            <nav>
+                <a href="index.html"><img src="images/logo.png" alt="International Institute logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="services.html">SERVICES</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Services</h1>
+        </section>
+        <!-------------------------------Services------------------------------->
+        <section class="services">
+            <h1>Services Offered</h1>
+            <p>Click below</p>
+
+            <div class="row">
+                <div class="services-col">
+                    <h3>Free ESL Classes for Adults</h3>
+                    <p>Learn or improve your English skills
+                        Beginner, intermediate & advanced <br>
+                        Levels Classes are offered in the mornings and the evenings</p>
+                        <a href="esl.html" class="btn-container esl-btn">click to learn more</a>
+                </div>
+                <div class="services-col">
+                    <h3>Immigration Documentation Assistance</h3>
+                    <p>Family Based Petitions
+                        Naturalization / Citizenship
+                        Adjustment of Status<br>(Permanent Residence)</p>
+                        <a href="" class="btn-container immigration-btn">click to learn more</a>
+                </div>
+                <div class="services-col">
+                    <h3>Haverhill Child Care</h3>
+                    <p>International Child Care Center</p>
+                        <a href="" class="btn-container child-care-btn">click to learn more</a>
+                </div>
+            </div>
+
+        </section>
+        <!-------------------------------footer------------------------------->
+        <section class="footer">
+            <h4>International Institute</h4>
+            <p>125 Amesbury St Lawrence, Massachusetts 01840</p>
+            <a href="https://www.facebook.com/internationalinstituteoflawrence" target="_blank"><i class="fab fa-facebook"></i></a>
+            <div class="signature">
+                <p>Made by <a href="https://github.com/iiogl" target="_blank"><i class="fa fa-code"></i></a> Brian Willians</p>
+            </div>
+        </section>
+        <!-------------------------------scripts------------------------------->
+        <script src="script.js"></script>
+        <script>window.gtranslateSettings = {"default_language":"en","native_language_names":true,"detect_browser_language":true,"languages":["en","es","pt","vi","ht"],"wrapper_selector":".gtranslate_wrapper","flag_size":23,"switcher_horizontal_position":"inline","alt_flags":{"en":"usa"}}</script>
+        <script src="https://cdn.gtranslate.net/widgets/latest/dwf.js" defer></script>
+    </body>
+</html>
